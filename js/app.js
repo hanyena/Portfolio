@@ -1,9 +1,20 @@
 var gApp = angular.module('gApp', []);
     gApp.run(function($rootScope){
-    	$rootScope.address = "서울시 금천구 가산디지털2로 115 대륭테크노타운3차";
+    	$rootScope.address = "hanyena1134@hanmail.net";
     	$rootScope.dns = "GooDee";
     	$rootScope.title = "Portfolio";
-    	$rootScope.name = "한예나";
+    	
+		$rootScope.MenuList = [
+			"안녕하세요 저는 모든일에 최선을 다하는 한예나입니다.",
+			"항상 긍적적인 마인드로 문제를 해결해나가겠습니다.",
+		    "감사합니다.",
+		    "보유기술은 아래와 같습니다.",
+			"- JAVA : Spring, JSP.Servlet",
+			"- Front end: HTML & CSS & Javascript",
+			"- Database : mysql",
+			"- OS: Linux, Windows"
+			];
+		
     });
 	gApp.controller('gCtrl', function($scope) {
 		$scope.htmlCheck = false;
