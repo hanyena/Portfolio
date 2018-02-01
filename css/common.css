@@ -236,14 +236,6 @@ section.contents2 {
 	color : #ffffffd6;
 }
 
-@media (min-width : 768px){
-	.menu{
-		display: none;
-	}
-}
-
-@media (max-width : 768px){
-	.main{
-		display: none;
-	}
+.menu {
+	display: none!important;
 }
