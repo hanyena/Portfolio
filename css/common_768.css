@@ -50,6 +50,7 @@ nav .container ul li {
 	display: block;
 	padding: 5px 0;
 	clear: both;
+	text-align: left;
 }
 nav .container ul li a {
 	font-size: 1rem;
@@ -72,4 +73,12 @@ nav .container ul li a {
 }
 .isotope-item img {
 	min-height: 100px;
+}
+
+.main{
+		display: none;
+}
+
+.menu {
+	display: block!important;
 }
