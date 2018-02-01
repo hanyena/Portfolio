@@ -35,8 +35,8 @@
 				<ul>
 					<li><a class="main" href="#" data-ng-bind="name"></a></li>
 					<br>
-					<li data-ng-repeat="rows in MenuList">
-						<a class="menu" href="#" data-ng-bind="rows"></a>
+					<li class="menu" data-ng-repeat="rows in MenuList" data-ng-class="{displayNone: btCheck}" resize>
+						<a href="#" data-ng-bind="rows"></a>
 					</li>
 				</ul>
 			</div>
