@@ -3,7 +3,7 @@ var gApp = angular.module('gApp', []);
     	$rootScope.address = "hanyena1134@hanmail.net";
     	$rootScope.dns = "GooDee";
     	$rootScope.title = "Portfolio";
-    	
+    	$rootScope.name = "한예나";
 		$rootScope.MenuList = [
 			"안녕하세요 저는 모든일에 최선을 다하는 한예나입니다.",
 			"항상 긍적적인 마인드로 문제를 해결해나가겠습니다.",
