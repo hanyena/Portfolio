@@ -6,7 +6,7 @@ var gApp = angular.module('gApp', []);
     	$rootScope.name = "한예나";
 		$rootScope.MenuList = [
 			"안녕하세요 저는 모든일에 최선을 다하는 한예나입니다.",
-			"항상 긍적적인 마인드로 문제를 해결해나가겠습니다.",
+			"항상 긍적인 마인드로 문제를 해결해나가겠습니다.",
 		    "감사합니다.",
 		    "보유기술은 아래와 같습니다.",
 			"- JAVA : Spring, JSP.Servlet",
