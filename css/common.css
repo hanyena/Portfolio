@@ -21,8 +21,7 @@ button { cursor: pointer; }
     transition-duration: 0.4s;
 	background-color: #f4ffea54;
 }
-.btn:hover, .act
-ive { 
+.btn:hover, .active { 
 	color: #fafbfb; 
 	background-color: rgba(233, 236, 234, 0.43); 
 	box-shadow: 0 4px 8px 0 rgba(229, 242, 222, 0.4), 0 6px 20px 0 rgba(229, 242, 222, 0.39); 
